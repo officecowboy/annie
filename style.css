@@ -198,6 +198,7 @@ header {
 
   .year-section {
     flex-direction: column;
+    margin: 24px 0 48px 0;
   }
 
   h2 {
@@ -218,7 +219,20 @@ header {
     font-size: 12px;
     text-transform: uppercase;
     opacity: 0.5;
-    margin: 12px 0 12px 0;
+    margin: 16px 0 16px 0;
+  }
+
+  a {
+    line-height: 2;
+  }
+
+  .intro-link {
+    line-height: 1.5 !important;
+  }
+
+  .header-image {
+    rotate: 0deg;
+    width: 100%;
   }
 
 }
