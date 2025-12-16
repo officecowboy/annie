@@ -240,7 +240,7 @@ header {
 @media screen and (max-width: 768px) {
 
   .global-container::before {
-      height: 2.5rem;
+      display: none;
   }
 
 }
